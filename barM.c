@@ -43,7 +43,7 @@ static const char * get_freespace(void);
 static void XSetRoot(const char *name);
 /*Append here your functions.*/
 static const char*(*const functab[])(void)={
-        get_freespace, date
+        ram, get_freespace, date
 };
 
 int main(void){
